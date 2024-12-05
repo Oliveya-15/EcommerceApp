@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -60,6 +66,39 @@ body{
 
 /* header start */
 
+
+
+/* Style for the text logo */
+
+
+.text-logo {
+    font-family: 'Merienda', cursive; 
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0b5f59; 
+    text-decoration: none;
+    letter-spacing: 1.2px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.text-logo:hover {
+    color: #0d4e48; 
+    transform: scale(1.03); 
+}
+
+.text-logo span {
+    font-size: 2rem; 
+    vertical-align: middle; 
+    display: inline-block;
+    transform: translateY(-2px); 
+}
+
+
+
+
 #header{
     display: flex;
     align-items: center;
@@ -72,6 +111,7 @@ body{
     top: 0;
     left: 0;
 }
+
 
 #navbar{
     display: flex;
